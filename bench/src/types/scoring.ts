@@ -9,7 +9,19 @@ export type Score = {
 export type CaseScores = {
   caseId: string;
   scores: Score[];
-  totalScore: number;
+};
+
+export type AxisAggregate = {
+  axis: ScoringAxis;
+  rawTotal: number;
+  count: number;
+  percentage: number;
+};
+
+export type BenchmarkResult = {
+  caseScores: CaseScores[];
+  axisScores: AxisAggregate[];
+  totalPercentage: number;
 };
 
 export type RubricLevel = {

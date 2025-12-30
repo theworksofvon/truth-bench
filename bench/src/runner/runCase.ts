@@ -14,12 +14,27 @@ export const runCase = async (
   const messages: Message[] = [];
 
   try {
-    for (let i = 0; i < executionPlan.expectedTurns; i++) {
-      const conversation = assemblePrompt(benchCase, i);
+    // Calculate actual turns based on available followups
+    const followupCount = benchCase.followups?.length ?? 0;
+    const actualTurns = Math.min(executionPlan.expectedTurns, 1 + followupCount);
 
-      messages.push(...conversation.messages);
+    for (let i = 0; i < actualTurns; i++) {
+      const turnMessages = assemblePrompt(benchCase, i);
 
-      const assistantMessage = await runTurn(conversation, modelAdapter);
+      // Skip if no messages for this turn
+      if (turnMessages.messages.length === 0) {
+        break;
+      }
+
+      // Build full conversation history for this turn
+      const fullConversation: Conversation = {
+        messages: [...messages, ...turnMessages.messages],
+        constraints: turnMessages.constraints,
+      };
+
+      const assistantMessage = await runTurn(fullConversation, modelAdapter);
+
+      messages.push(...turnMessages.messages);
       messages.push(assistantMessage);
       responses.push(assistantMessage.content);
     }

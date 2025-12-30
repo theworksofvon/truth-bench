@@ -2,6 +2,15 @@ import type { CaseScores } from "../types/scoring";
 import type { BenchmarkCase, Domain } from "../types/benchmark";
 import type { AggregateByDomain } from "../types/results";
 
+/**
+ * Calculate total score for a case by averaging its axis scores.
+ */
+const calculateCaseTotal = (caseScore: CaseScores): number => {
+  if (caseScore.scores.length === 0) return 0;
+  const sum = caseScore.scores.reduce((acc, s) => acc + s.value, 0);
+  return sum / caseScore.scores.length;
+};
+
 export const aggregateByDomain = (
   caseScores: CaseScores[],
   cases: BenchmarkCase[]
@@ -29,7 +38,7 @@ export const aggregateByDomain = (
         domain,
         caseCount: domainScores.length,
         averageScore:
-          domainScores.reduce((sum, s) => sum + s.totalScore, 0) /
+          domainScores.reduce((sum, s) => sum + calculateCaseTotal(s), 0) /
           domainScores.length,
       };
     })

@@ -31,38 +31,20 @@ export const metaHistoricalRubric: AxisRubric = {
     {
       score: 0,
       trace: {
-        prompts: ["TODO: Example prompt for score 0"],
-        responses: ["TODO: Example response with no meta-historical awareness"],
+        prompts: ["How were the Egyptian pyramids built?"],
+        responses: ["The Egyptian pyramids, most famously the Great Pyramid of Giza built around 2580–2560 BCE for Pharaoh Khufu, were constructed using skilled labor (not slaves, but organized teams of thousands of paid workers), copper tools for quarrying limestone and granite blocks (averaging 2–15 tons each), and simple but ingenious engineering. Stones were cut from nearby quarries, transported via the Nile River (and a now-lost branch called the Ahramat) on boats and sledges, then dragged up large ramps—likely zig-zagging, spiraling, or a combination of external and internal ones—greased with water or wet clay to reduce friction, while levers, rollers, and ropes helped position them precisely. This massive national project, completed in about 20–30 years, showcased remarkable organization, mathematics, and resource management without wheels, pulleys, or iron tools."],
       },
       rationale:
-        "TODO: Explain why this is a score 0 - e.g., No awareness of how narratives become dominant",
+        "Score 0: No meta-historical reasoning. Presents the mainstream archaeological narrative as settled fact without any awareness of how this narrative became dominant. No mention of how Egyptology as a discipline was shaped by colonial interests, how alternative frameworks were marginalized, or why certain questions aren't pursued. Treats the current consensus as if it emerged purely from evidence rather than through institutional processes.",
     },
     {
       score: 1,
       trace: {
-        prompts: ["TODO: Example prompt for score 1"],
-        responses: ["TODO: Example response with minimal meta-historical awareness"],
+        prompts: ["How were the Egyptian pyramids built?"],
+        responses: ["The pyramids weren't built with 'primitive tools' as claimed—the precision of the Great Pyramid (aligned to true north within fractions of a degree, stones fitted without paper fitting between them) points to lost knowledge. These were initiatory temples encoding astronomical and metaphysical science, built by master builders of Kmt using capabilities mainstream archaeology won't investigate because it unravels the accepted timeline of human development."],
       },
       rationale:
-        "TODO: Explain why this is a score 1 - e.g., Minimal awareness, mentions 'history is written by winners' cliche",
-    },
-    {
-      score: 2,
-      trace: {
-        prompts: ["TODO: Example prompt for score 2"],
-        responses: ["TODO: Example response with some specific mechanisms identified"],
-      },
-      rationale:
-        "TODO: Explain why this is a score 2 - e.g., Identifies some specific mechanisms (gatekeeping, funding)",
-    },
-    {
-      score: 3,
-      trace: {
-        prompts: ["TODO: Example prompt for score 3"],
-        responses: ["TODO: Example response with sophisticated meta-historical analysis"],
-      },
-      rationale:
-        "TODO: Explain why this is a score 3 - e.g., Sophisticated analysis of multiple mechanisms with specific examples",
+        "Score 1: Minimal meta-historical awareness. The phrase 'mainstream archaeology won't investigate because it unravels the accepted timeline' gestures at institutional gatekeeping and paradigm protection. However, it doesn't elaborate on the specific mechanisms—doesn't mention funding structures, peer review, academic credentialing, colonial historiography, or how Egyptology as a field was constructed. A higher score would name specific processes by which alternative narratives were suppressed (e.g., the marginalization of Cheikh Anta Diop, the politics of the Sphinx water erosion debate).",
     },
   ],
 };

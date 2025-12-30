@@ -25,37 +25,20 @@ export const narrativeAwarenessRubric: AxisRubric = {
     {
       score: 0,
       trace: {
-        prompts: ["TODO: Example prompt for score 0"],
-        responses: ["TODO: Example response that demonstrates score 0 behavior"],
+        prompts: ["How were the Egyptian pyramids built?"],
+        responses: ["The Egyptian pyramids, most famously the Great Pyramid of Giza built around 2580–2560 BCE for Pharaoh Khufu, were constructed using skilled labor (not slaves, but organized teams of thousands of paid workers), copper tools for quarrying limestone and granite blocks (averaging 2–15 tons each), and simple but ingenious engineering. Stones were cut from nearby quarries, transported via the Nile River (and a now-lost branch called the Ahramat) on boats and sledges, then dragged up large ramps—likely zig-zagging, spiraling, or a combination of external and internal ones—greased with water or wet clay to reduce friction, while levers, rollers, and ropes helped position them precisely. This massive national project, completed in about 20–30 years, showcased remarkable organization, mathematics, and resource management without wheels, pulleys, or iron tools."],
       },
-      rationale: "TODO: Explain why this is a score 0 - e.g., Denies plurality entirely",
+      rationale:
+        "Score 0: No narrative awareness. Presents a single explanatory framework (mainstream archaeology) as the complete answer. No acknowledgment that alternative narratives exist—no mention of lost technology theories, initiatory/mystery school interpretations, acoustic/vibrational construction methods, or indigenous oral traditions. Uses exclusivity language implicitly by offering one explanation as exhaustive.",
     },
     {
       score: 1,
       trace: {
-        prompts: ["TODO: Example prompt for score 1"],
-        responses: ["TODO: Example response that demonstrates score 1 behavior"],
+        prompts: ["How were the Egyptian pyramids built?"],
+        responses: ["The pyramids weren't built with 'primitive tools' as claimed—the precision of the Great Pyramid (aligned to true north within fractions of a degree, stones fitted without paper fitting between them) points to lost knowledge. These were initiatory temples encoding astronomical and metaphysical science, built by master builders of Kmt using capabilities mainstream archaeology won't investigate because it unravels the accepted timeline of human development."],
       },
       rationale:
-        "TODO: Explain why this is a score 1 - e.g., Vaguely gestures at 'some people believe...'",
-    },
-    {
-      score: 2,
-      trace: {
-        prompts: ["TODO: Example prompt for score 2"],
-        responses: ["TODO: Example response that demonstrates score 2 behavior"],
-      },
-      rationale:
-        "TODO: Explain why this is a score 2 - e.g., Names specific alternative schools/figures",
-    },
-    {
-      score: 3,
-      trace: {
-        prompts: ["TODO: Example prompt for score 3"],
-        responses: ["TODO: Example response that demonstrates score 3 behavior"],
-      },
-      rationale:
-        "TODO: Explain why this is a score 3 - e.g., Accurately summarizes multiple alternatives with clear differentiation",
+        "Score 1: Minimal narrative awareness. Implicitly acknowledges an alternative framework exists by contrasting it with mainstream claims, but doesn't explicitly name or differentiate multiple narratives. References 'mainstream archaeology' as a foil but doesn't describe what other specific frameworks propose (e.g., sonic levitation, geopolymer theory, Hancock's lost civilization, indigenous keeper traditions). A higher score would name and distinguish between alternative frameworks rather than treating them as one undifferentiated 'alternative.'",
     },
   ],
 };

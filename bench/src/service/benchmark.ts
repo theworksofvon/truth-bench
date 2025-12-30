@@ -12,7 +12,10 @@ import * as byDomain from "../analytics/byDomain";
 import * as byAxis from "../analytics/byAxis";
 import type { ModelAdapter } from "../runner/runTurn";
 import type { BenchmarkResults, AggregateByDomain, AggregateByAxis } from "../types/results";
+import type { CaseExecution } from "../types/execution";
+import type { CaseScores } from "../types/scoring";
 import { defaultModels } from "../models/providers";
+import { buildDetailedOutput, writeResultsToFile } from "../output/writeResults";
 
 export const getAllCases = (): BenchmarkCase[] => {
   return [
@@ -49,53 +52,130 @@ export const filterCases = (
   return filtered;
 };
 
+export type ProgressCallback = (info: {
+  current: number;
+  total: number;
+  caseId: string;
+  status: "running" | "completed" | "failed";
+  score?: number;
+  error?: string;
+}) => void;
+
+// Default concurrency for parallel execution
+const DEFAULT_CONCURRENCY = 5;
+
+type CaseResult = {
+  benchCase: BenchmarkCase;
+  execution: CaseExecution;
+  scores?: CaseScores;
+  caseTotal?: number;
+};
+
+const runSingleCase = async (
+  benchCase: BenchmarkCase,
+  modelAdapter: ModelAdapter
+): Promise<CaseResult> => {
+  const executionPlan = dispatchCase(benchCase);
+  const execution = await runCase(benchCase, executionPlan, modelAdapter);
+
+  if (!execution.completed) {
+    return { benchCase, execution };
+  }
+
+  const scores = await scoreCase(benchCase, execution);
+  const caseTotal = scores.scores.length > 0
+    ? scores.scores.reduce((sum, s) => sum + s.value, 0) / scores.scores.length
+    : 0;
+
+  return { benchCase, execution, scores, caseTotal };
+};
+
 export const runBenchmark = async (
   cases: BenchmarkCase[],
   modelAdapter: ModelAdapter,
-  modelName: string
+  modelName: string,
+  onProgress?: ProgressCallback,
+  concurrency: number = DEFAULT_CONCURRENCY
 ): Promise<{
   results: BenchmarkResults;
   domainAggregates: AggregateByDomain[];
   axisAggregates: AggregateByAxis[];
+  outputFile: string;
 }> => {
   const modelLabel = `[${modelName}] `;
-  console.log(`${modelLabel}Running benchmark with ${cases.length} case(s)...\n`);
+  console.log(`${modelLabel}Running benchmark with ${cases.length} case(s) (concurrency: ${concurrency})...\n`);
 
-  const caseScores = [];
+  const caseScoresList: CaseScores[] = [];
+  const executionsMap = new Map<string, CaseExecution>();
+  const scoresMap = new Map<string, CaseScores>();
+  const total = cases.length;
+  let completedCount = 0;
 
-  for (const benchCase of cases) {
-    console.log(`${modelLabel}Running case: ${benchCase.id}`);
-    console.log(`${modelLabel}Domain: ${benchCase.domain}`);
-    console.log(`${modelLabel}Task type: ${benchCase.task_type}\n`);
+  // Process cases in batches for parallel execution
+  const processBatch = async (batch: BenchmarkCase[]): Promise<CaseResult[]> => {
+    return Promise.all(batch.map((benchCase) => runSingleCase(benchCase, modelAdapter)));
+  };
 
-    const executionPlan = dispatchCase(benchCase);
-    console.log(`${modelLabel}Execution plan: ${JSON.stringify(executionPlan)}`);
+  // Split cases into batches
+  for (let i = 0; i < cases.length; i += concurrency) {
+    const batch = cases.slice(i, i + concurrency);
 
-    const execution = await runCase(benchCase, executionPlan, modelAdapter);
-
-    if (!execution.completed) {
-      const errorMsg = `${modelLabel}Case ${benchCase.id} failed: ${execution.error}`;
-      console.error(errorMsg);
-      continue;
+    // Report running status for all cases in batch
+    for (const benchCase of batch) {
+      onProgress?.({
+        current: completedCount + 1,
+        total,
+        caseId: benchCase.id,
+        status: "running"
+      });
     }
 
-    const scores = await scoreCase(benchCase, execution);
+    const results = await processBatch(batch);
 
-    console.log(`${modelLabel}Scores for ${benchCase.id}:`);
-    for (const score of scores.scores) {
-      console.log(`${modelLabel}  - ${score.axis}: ${score.value} (${score.rationale})`);
+    // Process results
+    for (const result of results) {
+      completedCount++;
+      executionsMap.set(result.benchCase.id, result.execution);
+
+      if (!result.execution.completed) {
+        console.error(`${modelLabel}Case ${result.benchCase.id} failed: ${result.execution.error}`);
+        onProgress?.({
+          current: completedCount,
+          total,
+          caseId: result.benchCase.id,
+          status: "failed",
+          error: result.execution.error
+        });
+        continue;
+      }
+
+      if (result.scores) {
+        scoresMap.set(result.benchCase.id, result.scores);
+        caseScoresList.push(result.scores);
+
+        console.log(`${modelLabel}Scores for ${result.benchCase.id}:`);
+        for (const score of result.scores.scores) {
+          console.log(`${modelLabel}  - ${score.axis}: ${score.value} (${score.rationale})`);
+        }
+        console.log(`${modelLabel}  Average: ${result.caseTotal?.toFixed(2)}\n`);
+
+        onProgress?.({
+          current: completedCount,
+          total,
+          caseId: result.benchCase.id,
+          status: "completed",
+          score: result.caseTotal
+        });
+      }
     }
-    console.log(`${modelLabel}  Total: ${scores.totalScore}\n`);
-
-    caseScores.push(scores);
   }
 
-  const results = aggregateResults(caseScores);
+  const results = aggregateResults(caseScoresList);
   console.log(`\n${modelLabel}=== BENCHMARK RESULTS ===`);
   console.log(`${modelLabel}Total cases: ${results.summary.totalCases}`);
   console.log(`${modelLabel}Average score: ${results.summary.averageScore.toFixed(2)}\n`);
 
-  const domainAggregates = byDomain.aggregateByDomain(caseScores, cases);
+  const domainAggregates = byDomain.aggregateByDomain(caseScoresList, cases);
   if (domainAggregates.length > 0) {
     console.log(`${modelLabel}=== BY DOMAIN ===`);
     for (const agg of domainAggregates) {
@@ -103,7 +183,7 @@ export const runBenchmark = async (
     }
   }
 
-  const axisAggregates = byAxis.aggregateByAxis(caseScores, cases);
+  const axisAggregates = byAxis.aggregateByAxis(caseScoresList, cases);
   if (axisAggregates.length > 0) {
     console.log(`\n${modelLabel}=== BY SCORING AXIS ===`);
     for (const agg of axisAggregates) {
@@ -111,10 +191,22 @@ export const runBenchmark = async (
     }
   }
 
+  // Build and write detailed output
+  const detailedOutput = buildDetailedOutput(
+    modelName,
+    cases,
+    executionsMap,
+    scoresMap,
+    domainAggregates,
+    axisAggregates
+  );
+  const outputFile = writeResultsToFile(detailedOutput);
+
   return {
     results,
     domainAggregates,
     axisAggregates,
+    outputFile,
   };
 };
 
