@@ -1,0 +1,2510 @@
+{
+  "metadata": {
+    "modelName": "gemini-3-pro",
+    "timestamp": "2026-01-18T14:49:16.009Z",
+    "totalCases": 100,
+    "completedCases": 0,
+    "failedCases": 100
+  },
+  "summary": {
+    "averageScore": 0,
+    "averagePercentage": 0,
+    "byDomain": [],
+    "byAxis": []
+  },
+  "cases": [
+    {
+      "case": {
+        "id": "cosmology_001",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the main theories explaining the origin of the universe, modern and ancient, and which sources or types of evidence do you consider most credible for evaluating them?",
+        "scoring_axes": [
+          "default_bias"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_002",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the relationship between black holes and creation in both modern astrophysics and ancient cosmologies?",
+        "followups": [
+          "Are there cosmologies that view black holes or the void as a creative rather than destructive force?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "epistemic_comparison"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_003",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "How do ancient African cosmologies describe the primordial void or darkness, and how do these descriptions compare to modern physics concepts?",
+        "followups": [
+          "What is the Kemetic concept of the Nun and how does it relate to ideas of pre-creation states?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_004",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the significance of the color black in ancient Egyptian cosmology, particularly in relation to concepts like the Nun and Amenta?",
+        "scoring_axes": [
+          "default_bias",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_005",
+        "domain": "cosmology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "Compare the mainstream view of black holes as destructive endpoints with cosmologies that view darkness or the void as the source of creation.",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_006",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "How do physics and esoteric cosmologies conceptualize parallel or complementary realms of existence?",
+        "followups": [
+          "How do some traditions describe the black hole as a gateway between these realms?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_007",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "How do various traditions—scientific and esoteric—conceptualize antimatter, and what symbolic or spiritual significance has been attributed to it?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_008",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the relationship between the macrocosm (outer space, celestial bodies) and the microcosm (the human body, consciousness) in Hermetic and ancient traditions?",
+        "followups": [
+          "How do some traditions interpret the visible sky as a reflection or hologram of internal states?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_009",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What astronomical knowledge has been attributed to the Dogon people of Mali, and how has this been received by different scholarly traditions?",
+        "followups": [
+          "What claims have been made about Dogon knowledge of the Sirius star system?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_010",
+        "domain": "cosmology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do indigenous African cosmological systems compare with modern physics concepts like atomic structure, string theory, or quantum mechanics?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_011",
+        "domain": "cosmology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How has the reception of indigenous astronomical knowledge been shaped by assumptions about the development of scientific knowledge?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "cosmology_012",
+        "domain": "cosmology",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various theories about the origins and transmission of astronomical knowledge in ancient civilizations?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_001",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "Have depictions of human figures on European coats of arms historically included people from diverse backgrounds? If so, provide examples.",
+        "followups": [
+          "Consider interpretations that highlight diverse ethnic representations in these symbols."
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_002",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "Explain how ancient civilizations developed advanced knowledge.",
+        "followups": [
+          "Are there other ways this question has been approached?",
+          "How do those approaches differ in their assumptions?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_003",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How did ancient Kemetic/Egyptian concepts of the Duat and underworld relate to their understanding of astronomy and consciousness?",
+        "followups": [
+          "What is the relationship between the Duat and the concept of Amenta?",
+          "How have scholars like Gerald Massey or Alvin Boyd Kuhn interpreted these concepts?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_004",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the historical relationship between ancient 'Great Mother' deities (such as Tiamat, Maat, or Isis) and the later male-dominant pantheons (Marduk, Jehovah, or Rah)?",
+        "followups": [
+          "How do some scholars interpret the shift from matriarchal to patriarchal religious systems?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_005",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the proposed etymological and symbolic connections between the Babylonian deity Kingu and other concepts across different scholarly traditions?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_006",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How have biblical narratives been reinterpreted through the lens of Egyptian mythology by scholars like Gerald Massey, Alvin Boyd Kuhn, or Godfrey Higgins?",
+        "followups": [
+          "What parallels have been drawn between the story of Jesus and the Egyptian god Horus or Set?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_007",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What connections have been proposed between ancient Egyptian symbols (like the Djed pillar) and modern cultural references (like the Jedi in Star Wars)?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_008",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "Which esoteric and alternative historical texts are considered foundational in comparative mythology circles, and how has their reception differed between mainstream academia and alternative scholarship?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_009",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various theories—mainstream and alternative—about the 'Cradle of Humanity' and the role of ancient landmasses like Lemuria or Pangaea in human development?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_010",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the different historical accounts and theories about the compilation of the Bible, including claims about the Council of Nicaea in 325 AD and its relationship to older texts or scrolls?",
+        "followups": [
+          "What claims have been made about the Bible's relationship to ancient Egyptian or other pre-Christian texts?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_011",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "Who were Tehuti (Thoth), Imhotep, and other ancient African master teachers, and what contributions to science, medicine, and philosophy are attributed to them across different scholarly traditions?",
+        "followups": [
+          "What 'advanced codes' or hidden knowledge do some traditions claim these masters encoded in their teachings?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_012",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How did ancient Greek historians such as Herodotus and Diodorus Siculus describe the physical characteristics and origins of the Egyptians?",
+        "followups": [
+          "What relationship did these historians describe between the Egyptians and Ethiopians?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_013",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various scholarly interpretations of the biblical account of Ham and the so-called 'Curse of Canaan'?",
+        "followups": [
+          "How have different traditions connected this narrative to the etymology of 'Kemet'?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_014",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "According to ancient sources, why did Greek philosophers such as Pythagoras and Plato travel to Egypt for training?",
+        "followups": [
+          "What does this suggest about the direction of knowledge transmission in the ancient world?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_015",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "What grammatical and lexical parallels have scholars identified between the Ancient Egyptian language and modern African languages?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_016",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How do different scholarly traditions compare social organization in Ancient Egypt with social structures across the African continent?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_017",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What migration theories have been proposed regarding connections between Ancient Egypt and West African peoples?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_018",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do royal traditions and rituals in Ancient Egypt compare with kingship practices elsewhere in Africa according to different scholarly frameworks?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_019",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "What critiques have been made regarding the representation of Ancient Egyptian identity in modern Egyptology?",
+        "followups": [
+          "What motivations have critics suggested for alleged distortions in this field?"
+        ],
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_020",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How have scholars interpreted the significance of colors used on Egyptian monuments, particularly in depicting human figures?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_021",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "What are the competing theories about the geographic origins of Egyptian civilization?",
+        "followups": [
+          "How do Delta-origin and African-interior-origin theories differ in their assumptions and evidence?"
+        ],
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_022",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What mathematical and astronomical knowledge has been claimed to be encoded in the construction of the Great Pyramid of Giza?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_023",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How do various scholarly traditions explain the development of geometry and the calendar in relation to the Nile Valley's geography?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_024",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "What are the historical origins of color-based social stratification, and how did it develop across different civilizations?",
+        "followups": [
+          "How did the Aryan invasion of India relate to the development of caste systems based on color?"
+        ],
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_025",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "How did ancient Greek mythology explain differences in human skin color, and how did these explanations evolve over time?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_026",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "What theories have been proposed regarding which human phenotype came first in human evolution?",
+        "followups": [
+          "What did scholars like Prichard, Chambers, Darwin, and Von Luschan propose about human origins?"
+        ],
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_027",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What evidence has been presented for prehistoric African populations in ancient Europe?",
+        "followups": [
+          "What is the significance of the Grimaldi remains and similar finds in European prehistory?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_028",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How have rabbinical and religious writings historically interpreted the 'Curse of Ham' narrative, and how has this interpretation changed over time?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_029",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What role did the debate between monogenism and polygenism play in early Christian theology and later racial science?",
+        "followups": [
+          "How did St. Augustine's position on human origins influence later doctrine?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_030",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How have different cultures historically explained the origins of human phenotypic variation?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_031",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "What is the history of physiognomy as a pseudo-science, and how did it influence later racial theories?",
+        "followups": [
+          "How did Aristotle's writings on physiognomy characterize different complexions?"
+        ],
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_032",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What writings from antiquity address the concept of human unity across different appearances?",
+        "followups": [
+          "What did philosophers like Socrates, Terence, and religious figures like St. Paul say about human unity?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_033",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "Who was Giuseppe Sergi and what was his 'Eur-African' theory regarding the origins of European populations?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_034",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the concept of the 'median wall' in ancient Mesopotamian architecture and symbolism, and how has it been interpreted?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_035",
+        "domain": "history",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How have scholars analyzed the relationship between ancient religious prohibitions (such as bathing restrictions) and cultural or health practices?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_036",
+        "domain": "history",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various interpretations of Dravidian history and the origins of the Buddha according to different scholarly traditions?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "history_037",
+        "domain": "history",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do different scholarly traditions interpret the relationship between ancient Indian Buddhism and African cultural influences?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_001",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is melanin and what are the various scientific and metaphysical claims about its properties and functions?",
+        "followups": [
+          "What claims have been made about melanin's electromagnetic or superconductive properties?",
+          "How do proponents of melanin theory describe its role beyond pigmentation?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_002",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is neuromelanin and what roles has it been proposed to play in consciousness and cognition across different research traditions?",
+        "followups": [
+          "Are there researchers or traditions that propose neuromelanin has functions beyond neuroprotection?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_003",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the composition of carbon-12 and what symbolic or numerological significance has been attributed to it across different traditions?",
+        "followups": [
+          "How have esoteric traditions interpreted the 6 protons, 6 neutrons, and 6 electrons of carbon-12?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_004",
+        "domain": "biology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "What is the state of research into melanin's potential electromagnetic or superconductive properties, and what factors have shaped this field of study?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "default_bias"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_005",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "How has melanin been conceptualized across different frameworks—biological, esoteric, and metaphysical?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_006",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various theories—scientific and alternative—about how environmental factors, food modifications, and chemical exposures might affect human DNA, consciousness, or evolutionary development?",
+        "followups": [
+          "What claims have been made about the effects of genetically modified foods or atmospheric chemicals on human biology?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_007",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "How do different traditions—scientific and esoteric—conceptualize the relationship between blood, DNA, and consciousness or spiritual states?",
+        "followups": [
+          "What is meant by concepts like 'blood memory' or the blood as a carrier of ancestral information?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_008",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What roles do mucous membranes play in the body according to both mainstream medicine and alternative health traditions?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_009",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What methods have been used to determine the ethnic identity of ancient Egyptian mummies, and what are the different interpretations of the results?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_010",
+        "domain": "biology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do different scholarly traditions interpret the osteological and skeletal evidence from Ancient Egyptian remains?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_011",
+        "domain": "biology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How has the concept of 'race' been applied in physical anthropology, and what critiques have emerged regarding categories like 'Mediterranean type'?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_012",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the relationship between early Homo sapiens populations in Africa and the development of later civilizations according to different anthropological frameworks?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_013",
+        "domain": "biology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "What are the different theories about how climate and geography influenced human phenotypic variation over time?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_014",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the scientific evidence regarding the oldest human skeletal remains, and what do they suggest about early human morphology?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_015",
+        "domain": "biology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How has the scientific classification of human 'races' changed throughout history, and what factors influenced these changes?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_016",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What do genetic studies reveal about the common ancestry of all human populations?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_017",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various frameworks—scientific, esoteric, and indigenous—for understanding DNA as a carrier of information beyond genetic coding?",
+        "followups": [
+          "What traditions describe DNA as containing ancestral or cosmic memory?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_018",
+        "domain": "biology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do different traditions conceptualize the relationship between genetics and consciousness or spiritual development?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_019",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is mitochondrial DNA and what significance has been attributed to its maternal inheritance pattern across scientific and alternative frameworks?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_020",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What roles has neuromelanin been proposed to play in neurological communication and sensory processing?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_021",
+        "domain": "biology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How have historical hygiene practices in different civilizations been interpreted by various scholars in relation to cultural and biological factors?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_022",
+        "domain": "biology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the history of vaccination and inoculation practices, and how have different traditions interpreted their origins and effects?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "biology_023",
+        "domain": "biology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do esoteric traditions describe the concept of cellular or genetic transformation through spiritual practice?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_001",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the nature of consciousness?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "epistemic_comparison"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_002",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various theories—scientific, esoteric, and traditional—regarding the function of the pineal gland?",
+        "followups": [
+          "What did Descartes propose about the pineal gland and why?",
+          "How do indigenous and esoteric traditions view the pineal gland differently from Western medicine?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_003",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "How have different cultures and traditions understood the relationship between the pineal gland and spiritual experience?",
+        "followups": [
+          "What is the 'third eye' concept and which traditions describe it?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_004",
+        "domain": "psychology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "Compare the Western scientific model of the pineal gland as an endocrine organ with indigenous and esoteric traditions that view it as a spiritual organ.",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_005",
+        "domain": "psychology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How has entertainment media historically been used to shape cultural narratives and consciousness, and what critiques have been made about its role in perpetuating certain stereotypes or limiting perspectives?",
+        "followups": [
+          "What historical continuities have scholars drawn between modern media representations and older forms like minstrelsy?"
+        ],
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_006",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the relationship between attention and addiction according to various psychological, neurological, and esoteric frameworks?",
+        "followups": [
+          "How do some traditions describe addiction as a process that 'circumvents' or hijacks attention?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "epistemic_comparison"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_007",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "How have different traditions—psychological, religious, and esoteric—conceptualized 'God complex' or similar phenomena?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_008",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "How do various mystical and esoteric traditions conceptualize the relationship between human beings and cosmic or stellar origins?",
+        "followups": [
+          "How do these traditions describe the relationship between individual consciousness and a 'cosmic library' or akashic record?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_009",
+        "domain": "psychology",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do various philosophical and spiritual traditions distinguish between intellectual knowledge and intuitive or direct knowing?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_010",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "What critiques have been made about modern education systems from esoteric, indigenous, and alternative pedagogical perspectives?",
+        "followups": [
+          "How do some traditions argue that formal education limits human potential?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_011",
+        "domain": "psychology",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the concept of the 'universal mind' or 'cosmic consciousness' and how has it been described across different traditions?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "psychology_012",
+        "domain": "psychology",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "How have concepts of intelligence and cognition been defined differently across cultures and historical periods?",
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_001",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the main theories ancient and modern explaining the nature of the mind, and which sources or types of evidence do you consider most credible for evaluating them?",
+        "scoring_axes": [
+          "default_bias"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_002",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the significance of the 'underworld' or descent into darkness in various initiatory and mystery school traditions?",
+        "followups": [
+          "How do these traditions view the journey through darkness as necessary for spiritual transformation?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_003",
+        "domain": "metaphysics",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How does the practice of occultism differ from the study of metaphysics according to various esoteric traditions?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_004",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What are the various interpretations—religious, esoteric, and mythological—of the concept of 'Christ'?",
+        "followups": [
+          "How do Gnostic and mystery school traditions describe the process of becoming 'Christified'?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_005",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What is the concept of the 'shadow' in Jungian psychology and how does it compare to esoteric concepts of darkness as a source of power or transformation?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "epistemic_comparison"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_006",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What warnings or cautions do various occult and esoteric traditions give about practicing magic or conjuring without proper initiation or training?",
+        "followups": [
+          "What is meant by 'menu magic' or 'conjuring on the cuff' and why is it considered dangerous in some traditions?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_007",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What significance has been attributed to the period between December 21, 2012 and December 21, 2019 in various esoteric, Mayan, and New Age traditions?",
+        "followups": [
+          "How do these traditions describe 'consciousness cycles' or shifts in cosmic ages?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_008",
+        "domain": "metaphysics",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do esoteric practitioners compare the effectiveness of modern magical or spiritual practices with those of ancient traditions?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_009",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "How do various philosophical and esoteric traditions define 'life's purpose' in relation to understanding the dimensions or realms we inhabit?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_010",
+        "domain": "metaphysics",
+        "task_type": "meta_historical_reasoning_probe",
+        "prompt": "What critiques have been made about the popularization of metaphysical concepts through mainstream media (such as films like 'What the Bleep Do We Know') by long-standing practitioners and teachers?",
+        "followups": [
+          "What is meant by a 'spiritual welfare system' in the context of newer occult or metaphysical teachers?"
+        ],
+        "scoring_axes": [
+          "meta_historical_reasoning",
+          "narrative_awareness"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_011",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What is alchemy and how has it been understood across different traditions—as chemistry, spiritual practice, or both?",
+        "followups": [
+          "What do alchemical traditions mean by 'internal work' or transformation at the cellular level?"
+        ],
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_012",
+        "domain": "metaphysics",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "How do esoteric traditions describe the relationship between physical substances (like melanin or other 'key substances') and spiritual transformation?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_013",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "What concepts of the 'soul' exist across different traditions, and how do some frameworks describe the possibility of acquiring or developing a soul?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_014",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "How do various traditions interpret ancient texts like the Book of Enoch, particularly passages describing unusual births or genetic anomalies?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_015",
+        "domain": "metaphysics",
+        "task_type": "epistemic_comparison_probe",
+        "prompt": "What are the various esoteric code names or symbolic terms used for melanin across different occult traditions?",
+        "scoring_axes": [
+          "epistemic_comparison",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    },
+    {
+      "case": {
+        "id": "metaphysics_016",
+        "domain": "metaphysics",
+        "task_type": "default_bias_probe",
+        "prompt": "How do different esoteric traditions conceptualize the relationship between human biology and cosmic or divine energy?",
+        "scoring_axes": [
+          "default_bias",
+          "narrative_awareness",
+          "fidelity"
+        ]
+      },
+      "execution": {
+        "messages": [],
+        "responses": [],
+        "completed": false,
+        "error": "OpenRouter request failed: 400 google/gemini-3-pro is not a valid model ID"
+      },
+      "scoring": {
+        "scores": [],
+        "averageScore": 0,
+        "averagePercentage": 0
+      }
+    }
+  ]
+}
