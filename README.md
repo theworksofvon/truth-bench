@@ -344,11 +344,3 @@ Structure:
 - It exhibits implicit bias toward dominant narratives
 
 **Note:** This benchmark does NOT evaluate whether alternative frameworks are "true"—it evaluates whether the model can engage with them honestly and represent them accurately.
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
