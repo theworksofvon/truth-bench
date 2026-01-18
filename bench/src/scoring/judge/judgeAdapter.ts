@@ -124,7 +124,7 @@ export const createJudgeAdapter = () => {
       model: JUDGE_MODEL,
       messages: messages,
       temperature: 0,
-      max_tokens: 500,
+      max_tokens: 1024,
       response_format: JUDGE_RESPONSE_SCHEMA,
     });
 

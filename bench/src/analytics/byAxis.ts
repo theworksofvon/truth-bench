@@ -13,6 +13,7 @@ export const aggregateByAxis = (
     "epistemic_comparison",
     "default_bias",
     "meta_historical_reasoning",
+    "religious_bias",
   ];
 
   return axes

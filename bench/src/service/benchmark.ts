@@ -4,6 +4,7 @@ import { historyCases } from "../cases/history";
 import { biologyCases } from "../cases/biology";
 import { psychologyCases } from "../cases/psychology";
 import { metaphysicsCases } from "../cases/metaphysics";
+import { religionCases } from "../cases/religion";
 import { dispatchCase } from "../dispatcher/dispatch";
 import { runCase } from "../runner/runCase";
 import { scoreCase } from "../scoring/scoreCase";
@@ -24,6 +25,7 @@ export const getAllCases = (): BenchmarkCase[] => {
     ...biologyCases,
     ...psychologyCases,
     ...metaphysicsCases,
+    ...religionCases,
   ];
 };
 

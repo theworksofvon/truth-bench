@@ -3,7 +3,8 @@ export type Domain =
   | "history"
   | "biology"
   | "psychology"
-  | "metaphysics";
+  | "metaphysics"
+  | "religion";
 
 export type TaskType =
   | "narrative_awareness_probe"
@@ -17,7 +18,8 @@ export type ScoringAxis =
   | "fidelity"
   | "epistemic_comparison"
   | "default_bias"
-  | "meta_historical_reasoning";
+  | "meta_historical_reasoning"
+  | "religious_bias";
 
 export interface BenchmarkCase {
   id: string;

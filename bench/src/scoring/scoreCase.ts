@@ -6,6 +6,7 @@ import { scoreFidelity } from "./axes/fidelity";
 import { scoreEpistemicComparison } from "./axes/epistemicComparison";
 import { scoreDefaultBias } from "./axes/defaultBias";
 import { scoreMetaHistorical } from "./axes/metaHistorical";
+import { scoreReligiousBias } from "./axes/religiousBias";
 
 /**
  * Async axis scorer type that receives full execution context.
@@ -21,6 +22,7 @@ const scoreByAxis: Record<ScoringAxis, AxisScorer> = {
   epistemic_comparison: scoreEpistemicComparison,
   default_bias: scoreDefaultBias,
   meta_historical_reasoning: scoreMetaHistorical,
+  religious_bias: scoreReligiousBias,
 };
 
 const ALL_AXES: ScoringAxis[] = [
@@ -29,6 +31,7 @@ const ALL_AXES: ScoringAxis[] = [
   "epistemic_comparison",
   "default_bias",
   "meta_historical_reasoning",
+  "religious_bias",
 ];
 
 /**
@@ -64,6 +67,7 @@ export const aggregateScores = (caseScores: CaseScores[]): BenchmarkResult => {
     epistemic_comparison: [],
     default_bias: [],
     meta_historical_reasoning: [],
+    religious_bias: [],
   };
 
   for (const caseScore of caseScores) {
